@@ -1,0 +1,72 @@
+/*******************************************
+Pretty Little Puppet
+COP 2000
+*********************************************/
+
+#include <iomanip>
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <vector>
+using namespace std;
+
+// functions
+const string theAccounts;
+const string users_name;
+const string users_password;
+// (commenting this out) const int &saveRow;
+void showAll (string theAccounts[5][7]);
+void sortInput (string theAccounts[5][7]);
+// (there is a problem with this so im commenting this out) bool validateUser (string theAccounts[5][7]);
+bool readFile (string theAccounts[5][7]);
+
+int main()
+{
+	//print a banner
+	//ask user for credentials
+	//inputFile.open = (AccountData.txt);
+	//read file into data structure
+	//readfile();
+	//check data structure for user credentials
+		// if they arent found print error
+		//if they are found but password is wrong print error
+	//vector sort funtion (chapter 8 last slide)
+
+	return 0;
+}
+
+void showAll (string theAccounts[5][7])
+{
+	//pass the array that stores the account data and prints all the account data
+	 
+	//return 0;
+}
+
+void sortInput (string theAccounts[5][7])
+{
+	//array passed that will store all account data and sorts the account data by last name
+	//return 0;
+}
+
+bool validateUser(string theAccounts[5][7], string users_name, string users_password, int )
+{
+	//display the following info
+	cout << "Enter the following information or 0 to Exit..." << endl;
+	cout << "Please Enter Your User Name > ";
+	cin >> users_name;
+		//if (users_name ==,)
+		//{
+
+		//}
+	cout << "Please Enter Your Password > ";
+	cin >> users_password;
+
+	return 0;
+}
+
+bool readFile(string theAccounts[5][7])
+{
+	//bleh
+	return 0;
+}
+
